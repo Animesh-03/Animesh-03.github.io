@@ -1,0 +1,75 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(37 42 57);
+    background: url("images/board-4-L26TM-posterframe.jpg") ;
+    background-size: 100% 100%;
+    color: azure;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav .nav-content {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0 10px;
+    background-color: rgb(24, 26, 31);
+}
+
+nav .nav-name {
+    font-size: large;
+    color: aqua;
+}
+
+nav .nav-options {
+    width: 40%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.members {
+    margin-top: 55px;
+    display: flex;
+    /* height: 400px; */
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.member-list li {
+    padding-bottom: 5px;
+}
+
+
+.story-desc {
+    width: 50%;
+    margin-right: 0px;
+}
+
+.frame-images {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.frames img {
+    width: 320px;
+    height: 180px;
+    padding: 20px 50px 20px 50px;
+}
+
+.frame-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
